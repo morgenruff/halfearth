@@ -12,17 +12,10 @@ Let's get started!
 🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
 -->
 
-**halfearth** provides a fun, bright palette:
-
-![](https://nova.app/images/en/dark/editor.png)
-
+**halfearth** - a wip theme for the Nova editor
 <!--
 🎈 If your extension provides multiple variations, don't forget to show those too!
 -->
-
-halfearth also offers a lighter alternative:
-
-![](https://nova.app/images/en/light/editor.png)
 
 ## Acknowledgements
 
@@ -30,4 +23,4 @@ halfearth also offers a lighter alternative:
 🎈 If your theme is based on existing work by someone else, consider crediting the original author
 -->
 
-halfearth is based on _Original halfearth_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+by Morgen Ruff, inspired by the book Half-Earth Socialism by Troy Vettese and Drew Pendergrass
