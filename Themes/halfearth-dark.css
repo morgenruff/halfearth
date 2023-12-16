@@ -195,7 +195,7 @@ value.null {
     color: hsl(210, 100%, 70%);
 }
 value.number {
-    color: hsl(45, 50%, 80%);
+    color: hsla(40, 55%, 90%, 1);
 }
 value.entity {
     color: hsl(210, 100%, 70%);
