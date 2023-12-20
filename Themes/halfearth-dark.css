@@ -365,19 +365,15 @@ style.selector.element {
 }
 style.selector.identifier.id {
     color: hsla(21, 95%, 44%, 1);
-    font-weight: bold;
 }
 style.selector.identifier.class {
     color: hsla(279, 28%, 71%, 1);
-    font-weight: bold;
 }
 style.selector.pseudoclass {
     color: hsla(201, 95%, 44%, 1);
-    font-weight: bold;
 }
 style.selector.pseudoelement {
     color: hsla(201, 95%, 44%, 1);
-    font-weight: bold;
 }
 style.attribute.name {
     color: hsla(201, 95%, 44%, 1);
