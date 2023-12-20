@@ -228,10 +228,10 @@ identifier.property.prefix {
 identifier.decorator,
 identifier.function,
 identifier.method {
-    color: hsl(160, 80%, 55%);
+    color: hsla(21, 95%, 44%, 1);
 }
 identifier.key {
-    color: hsl(270, 80%, 80%);
+    color: hsla(21, 95%, 44%, 1);
 }
 identifier.argument {
     color: hsl(270, 80%, 80%);
