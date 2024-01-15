@@ -273,30 +273,30 @@ cdata {
 /* Markup */
 
 markup.heading {
-    color: hsl(27, 100%, 70%);
+    color: hsla(21, 95%, 44%, 1);
 }
 markup.line {
-    color: hsl(60, 43%, 56%);
+    color: hsla(279, 28%, 71%, 1);
 }
 markup.bold {
-    color: hsl(196, 49%, 53%);
+    color: hsla(201, 95%, 44%, 1);
     font-weight: bold;
 }
 markup.italic {
-    color: hsl(94, 44%, 64%);
+    color: hsla(131, 19%, 40%, 1);
     font-style: italic;
 }
 markup.strikethrough {
-    color: hsl(210, 20%, 50%);
+    color: hsla(40, 55%, 90%, 1);
 }
 markup.list.item {
-    color: hsl(27, 100%, 70%);
+    color: hsla(21, 95%, 44%, 1);
 }
 markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: hsla(40, 55%, 90%, 0.2);
 }
 markup.link {
-    color: hsl(210, 100%, 70%);
+    color: hsla(201, 95%, 44%, 1);
 }
 
 /* Types */
