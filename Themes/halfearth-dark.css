@@ -189,19 +189,19 @@ keyword.self.prefix {
 /* Values */
 
 value.boolean {
-    color: hsl(210, 100%, 70%);
+    color: hsla(201, 95%, 44%, 1);
 }
 value.null {
-    color: hsl(210, 100%, 70%);
+    color: hsla(21, 95%, 44%, 1);
 }
 value.number {
-    color: hsla(40, 55%, 90%, 1);
+    color: hsla(279, 28%, 71%, 1);
 }
 value.entity {
-    color: hsl(210, 100%, 70%);
+    color: hsla(201, 95%, 44%, 1);
 }
 value.symbol {
-    color: hsl(210, 100%, 70%);
+    color: hsla(279, 28%, 71%, 1);
 }
 
 /* Identifiers */
