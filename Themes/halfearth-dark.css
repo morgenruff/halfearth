@@ -29,7 +29,7 @@ meta.titlebar { /* top-level window titlebar */
 
 meta.titlebar.inactive { /* titlebar color when inactive */
     background-color: hsla(111, 100%, 2%, 0.5);
-    color: hsla(111, 100%, 2%, 0.5);
+    color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 0.2);
 }
 
@@ -354,40 +354,41 @@ tag.attribute.value.link { /*  */
 
 /* Styles */
 
-style.at { /*  */
+style.at {
     color: hsla(279, 28%, 71%, 1);
     font-weight: bold;
 }
-style.selector.element { /*  */
-    font-weight: bold;
+style.selector.element { /* element-level selector */
+   color: hsla(131, 19%, 40%, 1);
+   font-weight: bold;
 }
-style.selector.identifier.id { /*  */
+style.selector.identifier.id { /* id selector */
     color: hsla(21, 95%, 44%, 1);
 }
-style.selector.identifier.class { /*  */
+style.selector.identifier.class { /* class selector */
     color: hsla(279, 28%, 71%, 1);
 }
-style.selector.pseudoclass { /*  */
+style.selector.pseudoclass { /* pseudoclass selector */
     color: hsla(201, 95%, 44%, 1);
 }
-style.selector.pseudoelement { /*  */
+style.selector.pseudoelement { /* pseudoelement selector */
     color: hsla(201, 95%, 44%, 1);
 }
-style.attribute.name { /*  */
-    color: hsla(201, 95%, 44%, 1);
-}
-style.value.number { /*  */
+style.attribute.name { /* attribute name */
     color: hsla(40, 55%, 90%, 1);
 }
-style.value.color.hex { /*  */
+style.value.number { /* number value */
     color: hsla(279, 28%, 71%, 1);
 }
-style.value.keyword { /*  */
+style.value.color.hex { /* hex value */
+    color: hsla(279, 28%, 71%, 1);
+}
+style.value.keyword { /* keyword value */
     color: hsla(201, 95%, 44%, 1);
 }
-style.value.color.named { /*  */
+style.value.color.named { /* named color value */
     color: hsla(201, 95%, 44%, 1);
 }
-style.value.identifier.function { /*  */
+style.value.identifier.function { /* function value */
     color: hsla(21, 95%, 44%, 1);
 }
