@@ -15,56 +15,56 @@ meta {
 
 /* Window styles */
  
-meta.window {
+meta.window { /* main window frame */
     background-color: hsla(111, 100%, 2%, 1);
     color: hsla(40, 55%, 90%, 1);
-    border-color: hsla(131, 19%, 40%, 0.5);
+    border-color: hsla(131, 19%, 40%, 0.2);
 }
 
-meta.titlebar {
+meta.titlebar { /* top-level window titlebar */
    background-color: hsla(111, 100%, 2%, 1);
    color: hsla(40, 55%, 90%, 1);
-   border-color: hsla(131, 19%, 40%, 0.5);
+   border-color: hsla(131, 19%, 40%, 0.2);
 }
 
-meta.titlebar.inactive {
+meta.titlebar.inactive { /* titlebar color when inactive */
     background-color: hsla(111, 100%, 2%, 0.5);
     color: hsla(111, 100%, 2%, 0.5);
-    border-color: hsla(131, 19%, 40%, 0.5);
+    border-color: hsla(131, 19%, 40%, 0.2);
 }
 
-meta.button {
+meta.button { /* default button coloring */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 1);
     color: hsla(40, 55%, 90%, 1);
 }
 
-meta.button.highlighted {
+meta.button.highlighted { /*  */
+    background-color: hsla(21, 95%, 44%, 1);
+    color: hsla(40, 55%, 90%, 1);
+}
+
+meta.button.selected { /* clicked and held button */
+    background-color: hsla(21, 95%, 44%, 1);
+    color: hsla(40, 55%, 90%, 1);
+}
+
+meta.button.highlighted.selected { /*  */
     background-color: hsla(40, 55%, 90%, 1);
     color: hsla(111, 100%, 2%, 1);
 }
 
-meta.button.selected {
-    background-color: hsla(40, 55%, 90%, 1);
-    color: hsla(111, 100%, 2%, 1);
-}
-
-meta.button.highlighted.selected {
-    background-color: hsla(40, 55%, 90%, 1);
-    color: hsla(111, 100%, 2%, 1);
-}
-
-meta.button.disabled {
+meta.button.disabled { /*  */
     background-color: hsla(111, 100%, 2%, 0.3);
     color: hsla(40, 55%, 90%, 0.3)
 }
 
-meta.textfield {
+meta.textfield { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 1);
     color: hsla(40, 55%, 90%, 1);
 }
-meta.textfield.highlighted {
+meta.textfield.highlighted { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(279, 28%, 71%, 1);
     color: hsla(40, 55%, 90%, 1);
@@ -72,230 +72,230 @@ meta.textfield.highlighted {
 
 /* Document styles */
  
-meta.document {
+meta.document { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 1);
 }
 
-meta.document.button {
+meta.document.button { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 1);
 }
 
-meta.document.button.disabled {
+meta.document.button.disabled { /*  */
     background-color: hsla(111, 100%, 2%, 0.5);
     border-color: hsla(131, 19%, 40%, 0.5);
 }
 
-meta.document.button.highlighted {
+meta.document.button.highlighted { /*  */
     background-color: ;
 }
 
-meta.document.textfield {
+meta.document.textfield { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     border-color: hsla(131, 19%, 40%, 1);
 }
 
-meta.document.textfield.highlighted {
+meta.document.textfield.highlighted { /*  */
     background-color: hsl(210, 5%, 10%);
     border-color: hsl(210, 5%, 19%);
 }
 
 /* Text */
 
-meta.text {
+meta.text { /*  */
     color: hsla(40, 55%, 90%, 1);
 }
-meta.text.invisible {
+meta.text.invisible { /*  */
     color: hsla(40, 55%, 90%, 0.5);
 }
-meta.text.selected {
+meta.text.selected { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
 
 /* Cursor */
 
-meta.cursor {
-    background-color: hsla(131, 19%, 40%, 0.7);
+meta.cursor { /* highlighted line of text */
+    background-color: hsla(131, 19%, 40%, 0.3);
 }
 
 /* Indentation Guides */
 
-meta.indentguide {
+meta.indentguide { /*  */
     border-color: hsla(131, 19%, 40%, 0.7);
 }
 
 /* Gutter */
 
-meta.gutter {
+meta.gutter { /*  */
     background-color: hsla(111, 100%, 2%, 1);
     color: hsla(279, 28%, 71%, 0.7);
 }
-meta.gutter.selected {
+meta.gutter.selected { /*  */
     color: hsla(111, 100%, 2%, 1);
 }
 
 
 /* Syntax styles */
 
-comment {
+comment { /*  */
     color: hsla(131, 19%, 40%, 0.7);
 }
-processing {
+processing { /*  */
     color: hsl(210, 20%, 50%);
 }
-declaration {
+declaration { /*  */
     color: hsl(210, 20%, 50%);
 }
-bracket {
+bracket { /*  */
     color: hsl(210, 50%, 70%);
 }
-operator {
+operator { /*  */
     color: hsl(210, 50%, 70%);
 }
-invalid {
+invalid { /*  */
     background-color: hsla(21, 95%, 44%, 0.7);
     color: hsla(40, 55%, 90%, 1);
 }
-link {
+link { /*  */
     color: hsl(210, 100%, 70%);
 }
 
 /* Keywords */
 
-keyword {
+keyword { /*  */
     color: hsl(210, 100%, 70%);
 }
-keyword.modifier {
+keyword.modifier { /*  */
     font-style: italic;
     color: hsl(190, 85%, 65%);
 }
-keyword.condition {
+keyword.condition { /*  */
     color: hsl(210, 100%, 70%);
 }
-keyword.construct {
+keyword.construct { /*  */
     color: hsl(210, 100%, 70%);
 }
-keyword.statement {
+keyword.statement { /*  */
     color: hsl(210, 100%, 70%);
 }
-keyword.self {
+keyword.self { /*  */
     color: hsl(210, 100%, 70%);
 }
-keyword.self.prefix {
+keyword.self.prefix { /*  */
     color: hsl(210, 100%, 80%);
 }
 
 /* Values */
 
-value.boolean {
+value.boolean { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-value.null {
+value.null { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-value.number {
+value.number { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-value.entity {
+value.entity { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-value.symbol {
+value.symbol { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
 
 /* Identifiers */
 
-identifier.type {
+identifier.type { /*  */
     color: hsl(32, 90%, 70%);
 }
 identifier.constant,
 identifier.global,
-identifier.variable {
+identifier.variable { /*  */
     color: hsl(270, 80%, 80%);
 }
 identifier.constant.prefix,
 identifier.global.prefix,
-identifier.variable.prefix {
+identifier.variable.prefix { /*  */
     color: hsl(240, 100%, 92%);
 }
-identifier.property {
+identifier.property { /*  */
     color: hsl(270, 80%, 80%);
 }
-identifier.property.prefix {
+identifier.property.prefix { /*  */
     color: hsl(240, 100%, 92%);
 }
 identifier.decorator,
 identifier.function,
-identifier.method {
+identifier.method { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-identifier.key {
+identifier.key { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-identifier.argument {
+identifier.argument { /*  */
     color: hsl(270, 80%, 80%);
 }
-identifier.argument.prefix {
+identifier.argument.prefix { /*  */
     color: hsl(240, 100%, 92%);
 }
 
 /* Strings */
 
-string {
+string { /*  */
     color: hsl(5, 80%, 65%);
 }
-string.delimiter {
+string.delimiter { /*  */
     color: hsl(5, 80%, 60%);
 }
-string.escape {
+string.escape { /*  */
     color: hsl(5, 80%, 80%);
 }
-string.key {
+string.key { /*  */
     color: hsl(270, 80%, 80%);
 }
-string-keyword {
+string-keyword { /*  */
     color: hsl(30, 100%, 90%);
 }
-string-template {
+string-template { /*  */
     color: hsl(30, 100%, 70%);
 }
-regex {
+regex { /*  */
     color: hsl(30, 100%, 70%);
 }
-regex.escape {
+regex.escape { /*  */
     color: hsl(30, 100%, 80%);
 }
-cdata {
+cdata { /*  */
     color: hsl(210, 100%, 70%);
 }
 
 /* Markup */
 
-markup.heading {
+markup.heading { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-markup.line {
+markup.line { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-markup.bold {
+markup.bold { /*  */
     color: hsla(201, 95%, 44%, 1);
     font-weight: bold;
 }
-markup.italic {
+markup.italic { /*  */
     color: hsla(131, 19%, 40%, 1);
     font-style: italic;
 }
-markup.strikethrough {
+markup.strikethrough { /*  */
     color: hsla(40, 55%, 90%, 1);
 }
-markup.list.item {
+markup.list.item { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-markup.code {
+markup.code { /*  */
     background-color: hsla(40, 55%, 90%, 0.2);
 }
-markup.link {
+markup.link { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
 
@@ -306,90 +306,88 @@ definition.type.name,
 definition.package.name,
 definition.enum.name,
 definition.union.name,
-definition.struct.name {
+definition.struct.name { /*  */
     
 }
 
 /* Members */
 
-definition.property.name {
+definition.property.name { /*  */
 }
 definition.function.name,
-definition.method.name {
+definition.method.name { /*  */
     
 }
 
 /* Tags */
 
-tag {
+tag { /*  */
     color: hsla(279, 28%, 71%, 1);
-    font-weight: bold;
 }
-tag.name {
+tag.name { /*  */
     color: hsla(201, 95%, 44%, 1);
-    font-weight: bold;
 }
-tag.framework {
+tag.framework { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.framework.name {
+tag.framework.name { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.name {
+tag.attribute.name { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-tag.framework.attribute.name {
+tag.framework.attribute.name { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.value {
+tag.attribute.value { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.value.delimiter {
+tag.attribute.value.delimiter { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-tag.attribute.operator {
+tag.attribute.operator { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-tag.attribute.value.link {
+tag.attribute.value.link { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
 
 /* Styles */
 
-style.at {
+style.at { /*  */
     color: hsla(279, 28%, 71%, 1);
     font-weight: bold;
 }
-style.selector.element {
+style.selector.element { /*  */
     font-weight: bold;
 }
-style.selector.identifier.id {
+style.selector.identifier.id { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-style.selector.identifier.class {
+style.selector.identifier.class { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-style.selector.pseudoclass {
+style.selector.pseudoclass { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-style.selector.pseudoelement {
+style.selector.pseudoelement { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-style.attribute.name {
+style.attribute.name { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-style.value.number {
+style.value.number { /*  */
     color: hsla(40, 55%, 90%, 1);
 }
-style.value.color.hex {
+style.value.color.hex { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-style.value.keyword {
+style.value.keyword { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-style.value.color.named {
+style.value.color.named { /*  */
     color: hsla(201, 95%, 44%, 1);
 }
-style.value.identifier.function {
+style.value.identifier.function { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
