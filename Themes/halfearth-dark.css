@@ -12,19 +12,22 @@ meta {
 /* celestial blue: #058ED9; hsla(201, 95%, 44%, 1); */
 /* kimchi: #db5006; hsla(21, 95%, 44%, 1); */
 /* lilac: BBA0CA; hsla(279, 28%, 71%, 1); */
+/* earth yellow: #D0A04E; hsla(38, 58%, 56%, 1) */
+/* gray: #ae9ecd; hsla(260, 32%, 71%, 1) */
+/* finnish teal: #5eb0c6; hsla(193, 48%, 57%, 1) */
 
 /* Window styles */
  
 meta.window { /* main window frame */
     background-color: hsla(111, 100%, 2%, 1);
     color: hsla(40, 55%, 90%, 1);
-    border-color: hsla(131, 19%, 40%, 0.2);
+    border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 meta.titlebar { /* top-level window titlebar */
    background-color: hsla(111, 100%, 2%, 1);
    color: hsla(40, 55%, 90%, 1);
-   border-color: hsla(131, 19%, 40%, 0.2);
+   border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 meta.titlebar.inactive { /* titlebar color when inactive */
@@ -35,7 +38,7 @@ meta.titlebar.inactive { /* titlebar color when inactive */
 
 meta.button { /* default button coloring */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(131, 19%, 40%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
     color: hsla(40, 55%, 90%, 1);
 }
 
@@ -61,12 +64,12 @@ meta.button.disabled { /*  */
 
 meta.textfield { /*  */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(131, 19%, 40%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
     color: hsla(40, 55%, 90%, 1);
 }
 meta.textfield.highlighted { /*  */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(279, 28%, 71%, 1);
+    border-color: hsla(279, 28%, 71%, 0.5);
     color: hsla(40, 55%, 90%, 1);
 }
 
@@ -74,17 +77,17 @@ meta.textfield.highlighted { /*  */
  
 meta.document { /*  */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(131, 19%, 40%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 meta.document.button { /*  */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(131, 19%, 40%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 meta.document.button.disabled { /*  */
     background-color: hsla(111, 100%, 2%, 0.5);
-    border-color: hsla(131, 19%, 40%, 0.5);
+    border-color: hsla(131, 19%, 40%, 0.2);
 }
 
 meta.document.button.highlighted { /*  */
@@ -93,12 +96,12 @@ meta.document.button.highlighted { /*  */
 
 meta.document.textfield { /*  */
     background-color: hsla(111, 100%, 2%, 1);
-    border-color: hsla(131, 19%, 40%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 meta.document.textfield.highlighted { /*  */
-    background-color: hsl(210, 5%, 10%);
-    border-color: hsl(210, 5%, 19%);
+    background-color: hsla(37.85, 58.04%, 56.08%, 1);
+    border-color: hsla(131, 19%, 40%, 0.5);
 }
 
 /* Text */
@@ -116,7 +119,7 @@ meta.text.selected { /*  */
 /* Cursor */
 
 meta.cursor { /* highlighted line of text */
-    background-color: hsla(131, 19%, 40%, 0.3);
+    background-color: hsla(279, 28%, 71%, 0.2);
 }
 
 /* Indentation Guides */
@@ -132,7 +135,7 @@ meta.gutter { /*  */
     color: hsla(279, 28%, 71%, 0.7);
 }
 meta.gutter.selected { /*  */
-    color: hsla(111, 100%, 2%, 1);
+    color: hsla(21, 95%, 44%, 1);
 }
 
 
@@ -148,7 +151,7 @@ declaration { /*  */
     color: hsl(210, 20%, 50%);
 }
 bracket { /*  */
-    color: hsl(210, 50%, 70%);
+    color: hsla(193, 48%, 57%, 1);
 }
 operator { /*  */
     color: hsl(210, 50%, 70%);
@@ -164,26 +167,26 @@ link { /*  */
 /* Keywords */
 
 keyword { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(260, 32%, 71%, 1);
 }
 keyword.modifier { /*  */
     font-style: italic;
-    color: hsl(190, 85%, 65%);
+    color: hsla(193, 48%, 57%, 1);
 }
 keyword.condition { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(260, 32%, 71%, 1);
 }
 keyword.construct { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(260, 32%, 71%, 1);
 }
 keyword.statement { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(260, 32%, 71%, 1);
 }
 keyword.self { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(260, 32%, 71%, 1);
 }
 keyword.self.prefix { /*  */
-    color: hsl(210, 100%, 80%);
+    color: hsla(260, 32%, 71%, 1);
 }
 
 /* Values */
@@ -207,7 +210,7 @@ value.symbol { /*  */
 /* Identifiers */
 
 identifier.type { /*  */
-    color: hsl(32, 90%, 70%);
+    color: hsla(38, 58%, 56%, 1);
 }
 identifier.constant,
 identifier.global,
@@ -228,10 +231,10 @@ identifier.property.prefix { /*  */
 identifier.decorator,
 identifier.function,
 identifier.method { /*  */
-    color: hsla(21, 95%, 44%, 1);
+    color: hsla(38, 58%, 56%, 1);
 }
 identifier.key { /*  */
-    color: hsla(21, 95%, 44%, 1);
+    color: hsla(38, 58%, 56%, 1); 
 }
 identifier.argument { /*  */
     color: hsl(270, 80%, 80%);
@@ -243,10 +246,10 @@ identifier.argument.prefix { /*  */
 /* Strings */
 
 string { /*  */
-    color: hsl(5, 80%, 65%);
+    color: hsla(21, 95%, 44%, 1);
 }
 string.delimiter { /*  */
-    color: hsl(5, 80%, 60%);
+    color: hsla(21, 95%, 44%, 1);
 }
 string.escape { /*  */
     color: hsl(5, 80%, 80%);
@@ -258,7 +261,7 @@ string-keyword { /*  */
     color: hsl(30, 100%, 90%);
 }
 string-template { /*  */
-    color: hsl(30, 100%, 70%);
+    color: hsla(38, 58%, 56%, 1);
 }
 regex { /*  */
     color: hsl(30, 100%, 70%);
@@ -267,7 +270,7 @@ regex.escape { /*  */
     color: hsl(30, 100%, 80%);
 }
 cdata { /*  */
-    color: hsl(210, 100%, 70%);
+    color: hsla(193, 48%, 57%, 1);
 }
 
 /* Markup */
@@ -333,22 +336,22 @@ tag.framework { /*  */
 tag.framework.name { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.name { /*  */
+tag.attribute.name { /* attributes (rel, name, href, etc.) */
     color: hsla(21, 95%, 44%, 1);
 }
 tag.framework.attribute.name { /*  */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.value { /*  */
+tag.attribute.value { /* HTML attribute value */
     color: hsla(279, 28%, 71%, 1);
 }
-tag.attribute.value.delimiter { /*  */
+tag.attribute.value.delimiter { /* HTML prime marks */
     color: hsla(21, 95%, 44%, 1);
 }
 tag.attribute.operator { /*  */
     color: hsla(21, 95%, 44%, 1);
 }
-tag.attribute.value.link { /*  */
+tag.attribute.value.link { /* link (file, url) */
     color: hsla(201, 95%, 44%, 1);
 }
 
@@ -356,7 +359,6 @@ tag.attribute.value.link { /*  */
 
 style.at {
     color: hsla(279, 28%, 71%, 1);
-    font-weight: bold;
 }
 style.selector.element { /* element-level selector */
    color: hsla(131, 19%, 40%, 1);
@@ -375,7 +377,7 @@ style.selector.pseudoelement { /* pseudoelement selector */
     color: hsla(201, 95%, 44%, 1);
 }
 style.attribute.name { /* attribute name */
-    color: hsla(40, 55%, 90%, 1);
+    color: hsla(38, 58%, 56%, 1);
 }
 style.value.number { /* number value */
     color: hsla(279, 28%, 71%, 1);
@@ -387,7 +389,7 @@ style.value.keyword { /* keyword value */
     color: hsla(201, 95%, 44%, 1);
 }
 style.value.color.named { /* named color value */
-    color: hsla(201, 95%, 44%, 1);
+    color: hsla(40, 55%, 90%, 1);
 }
 style.value.identifier.function { /* function value */
     color: hsla(21, 95%, 44%, 1);
